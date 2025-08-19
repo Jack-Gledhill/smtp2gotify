@@ -29,5 +29,5 @@ require (
 	github.com/mitchellh/mapstructure v1.1.2 // indirect
 	golang.org/x/net v0.42.0 // indirect
 	golang.org/x/text v0.28.0 // indirect
-	gopkg.in/yaml.v2 v2.2.1 // indirect
+	gopkg.in/yaml.v2 v2.2.8 // indirect
 )
