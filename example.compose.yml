@@ -1,0 +1,14 @@
+services:
+  smtp2gotify:
+    container_name: smtp2gotify
+    image: ghcr.io/Jack-Gledhill/smtp2gotify:latest
+    ports:
+      - "2525:25"
+    environment:
+      SMTP_HOST: smtp2gotify.jackgledhill.com
+      SMTP_PORT: "25"
+      SMTP_USERNAME: user
+      SMTP_PASSWORD: bcrypt-hash-here
+      GOTIFY_ADDRESS: gotify
+      GOTIFY_API_TOKEN: api-token-here
+    restart: always
