@@ -1,13 +1,13 @@
 module github.com/Jack-Gledhill/smtp2gotify
 
-go 1.23.2
+go 1.24.0
 
 require (
 	github.com/emersion/go-sasl v0.0.0-20241020182733-b788ff22d5a6
 	github.com/emersion/go-smtp v0.24.0
 	github.com/google/uuid v1.6.0
 	github.com/gotify/go-api-client/v2 v2.0.4
-	golang.org/x/crypto v0.41.0
+	golang.org/x/crypto v0.42.0
 )
 
 require (
@@ -27,7 +27,7 @@ require (
 	github.com/go-openapi/validate v0.17.0 // indirect
 	github.com/mailru/easyjson v0.0.0-20180823135443-60711f1a8329 // indirect
 	github.com/mitchellh/mapstructure v1.1.2 // indirect
-	golang.org/x/net v0.42.0 // indirect
-	golang.org/x/text v0.28.0 // indirect
+	golang.org/x/net v0.43.0 // indirect
+	golang.org/x/text v0.29.0 // indirect
 	gopkg.in/yaml.v2 v2.2.8 // indirect
 )
